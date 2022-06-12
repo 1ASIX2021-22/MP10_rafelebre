@@ -84,3 +84,44 @@ Quan estem dins del projecte que hem creat, ens apareixera un missatge que ens d
 Una vegada instal·lem els paquets necessaris ja podrem iniciar sessio amb les mateixes credeencials que abans
 ![Selecció_028](https://user-images.githubusercontent.com/72452088/173248294-d2bd6d36-6293-4fb3-95fa-ae91585cad17.png)
 
+Quan ja hem posat les credencials al phpstorm el que ens sortira ja sera la conexio a la base de dades mysql i com es pot veure a la imatge ja ens surt la taula amb les seves dos columnes que hem creat
+
+![Selecció_29](https://user-images.githubusercontent.com/72452088/173249860-a54e935d-baaa-4b45-9ae6-d0a8dafda010.png)
+
+## CODI AMB PHP
+
+Primer crearem una carpeta que sera on posarem la carpeta del codi que amb el meu cas he creat aquest directori
+
+![image](https://user-images.githubusercontent.com/72452088/173251202-11605787-1bf6-4a4b-8394-bb1b1a0220e9.png)
+
+Després configurarem el jetbrains toolbox per a que s'activi la caracterisitrca que ens permet exectuar actes mitjançant comandes, per fer aixo activarem la opcio de **Generar scripts de shell** i posarem la ubicacio
+![image](https://user-images.githubusercontent.com/72452088/173251242-dae9fb89-174e-4373-9f56-8e55112e01e5.png)
+
+Entrarem dins al directori que haviem indicat per als scripts, i com podem veure amb un ls tenim els exectuable i seguidament editarem el document amb un nano i posarem la següent linia dins del document
+![image](https://user-images.githubusercontent.com/72452088/173251279-41b8387d-2e9f-4914-846d-82bc6500c4a0.png)
+![image](https://user-images.githubusercontent.com/72452088/173251299-905b7b89-47f8-4d96-a4ee-b373e4564244.png)
+
+Una vegada fet aixo executarem la següent comanda de phpstorm dins del directori i se'ns obrira el projecte que hem creat, i una vegada dins, haurem de crear un document amb el nom de index.php
+![image](https://user-images.githubusercontent.com/72452088/173251335-30a784cf-afb2-4981-bbdc-3a3912a99b51.png)
+![image](https://user-images.githubusercontent.com/72452088/173251351-3a440558-619f-45d8-9fe3-eec20fc920a6.png)
+
+Dins del fitxer posarem una linia de codi que sera un echo 
+
+![image](https://user-images.githubusercontent.com/72452088/173251360-ccdd0b98-627f-4c1b-80a6-31b9e3b386ac.png)
+
+I per veure la linea de codi, ho podem fer de dues maneres, que una de les maneres es mitjançant el terminal i l'altra manera es pel navegador obrin un port que amb el meu cas he posat 2002 i com podem veure a la imatge ens surt el codi de les dos maneres que veiem el "HOLA MON"
+![image](https://user-images.githubusercontent.com/72452088/173251410-183d1ea8-dc46-4a57-918e-b25b6703d409.png)
+![image](https://user-images.githubusercontent.com/72452088/173251424-3ebe411d-e7d1-4e2e-8544-7dd9424f0987.png)
+
+Casi per ultim afegirem dins del mateix document aquest codi que hi ha a la imatge pero ens fixarem amb les credencials que sera el nostre usuari del document que en vist al principi de la documentacio i també la contrasenya
+
+![image](https://user-images.githubusercontent.com/72452088/173251478-e6e75ccf-efd1-4f33-a50a-efb530925df7.png)
+També haurem de generar el document task.php
+
+![image](https://user-images.githubusercontent.com/72452088/173251471-0067b21c-eefd-428e-b09b-45ac3b039a04.png)
+
+Finalment el que farem sera exectuar el document amb la comanda **php index.php** i ens haura de sortir una cosa semblant al de la imatge
+
+
+
+
